@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="Project.main" />
+        <module name="Project.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Project" target="24" />
+      <module name="Project.main" target="24" />
+      <module name="Project.test" target="24" />
+      <module name="src" target="24" />
+      <module name="src.main" target="24" />
+      <module name="src.test" target="24" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Project" options="-parameters -Xlint:-processing" />
+      <module name="Project.main" options="-parameters -Xlint:-processing" />
+      <module name="Project.test" options="-parameters -Xlint:-processing" />
+    </option>
+  </component>
+</project>
